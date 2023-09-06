@@ -1,0 +1,21 @@
+body
+{
+    background-color: rgb(60, 184, 209);
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    padding:20px;
+    text-align: center;
+}
+.block
+{
+    background-color: rgb(247, 242, 242);
+    margin: 10px;
+}
+.text
+{
+    padding: 15px;
+}
